@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Reset Sheet -->
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS Sheet -->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!-- jQuery 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+    <title>SurveyQuestions</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Survey Questions</h1>
+            <hr>
+        </div>
+
+        <div class="panel-heading">
+            <h3 class="panel-title"><strong>About You</strong></h3>
+        </div>
+
+        <form class="was-validated">
+            <div class="mb-3">
+                <label for="validationTextarea">Name (Required)</label>
+                <textarea class="form-control is-invalid" id="name" placeholder="" required></textarea>
+                <div class="invalid-feedback">
+                    Please enter your name in the textarea.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="validationTextarea">Link to Photo Image (Required)</label>
+                <textarea class="form-control is-invalid" id="imagelink" placeholder="" required></textarea>
+                <div class="invalid-feedback">
+                    Please enter your image link in the textarea.
+                </div>
+            </div>
+        </form>
+
+        <!-- <div class="form-group">
+            <label for="usr">Name (Required)</label>
+            <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+            <label for="link">Link to Photo Image (Required)</label>
+            <input type="link" class="form-control" id="link">
+        </div>-->
+
+
+
+        <form>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 1</strong></h3>
+                <p>Your mind is always buzzing with unexplored ideas and plans.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question1" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 2</strong></h3>
+                <p>Generally speaking, you rely more on your experience than your imagination.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question2" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 3</strong></h3>
+                <p>You find it easy to stay relaxed and focused even when there is some pressure.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question3" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 4</strong></h3>
+                <p>You rarely do something just out of sheer curiosity.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question4" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 5</strong></h3>
+                <p>People can rarely upset you.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question5" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 6</strong></h3>
+                <p>It is often difficult for you to relate to other people’s feelings.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question6" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 7</strong></h3>
+                <p>In a discussion, truth should be more important than people’s sensitivities.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question7" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 8</strong></h3>
+                <p>You rarely get carried away by fantasies and ideas.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question8" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 9</strong></h3>
+                <p>You think that everyone’s views should be respected regardless of whether they are supported by
+                    facts or not.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question9" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong>Question 10</strong></h3>
+                <p>You feel more energetic after spending time with a group of people.</p>
+            </div>
+
+
+            <div class="form-group">
+                <select class="custom-select" id="question10" required>
+                    <option value="">Select an Option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <div class="invalid-feedback">Example invalid custom select feedback</div>
+            </div>
+
+
+        </form>
+
+        <div class="col-auto my-1">
+            <button type="button" class="btn btn-secondary btn-lg btn-block" id="addBtn">Submit</button>
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="/api/friendslist">API Friends List</a> |
+                <a href="/api/GitHub">GitHub Repo</a>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+</body>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS LOADED FROM OUR SERVER -->
+<script type="text/javascript">
+    $(document).ready(function () {
+
+
+
+
+        $("#addBtn").on("click", function () {
+            let score = []
+            for (let i = 1; i <= 10; i++) {
+                score.push(parseInt($(`#question${i}`).val()));
+            };
+
+            var newFriend = {
+                name: $("#name").val().trim(),
+                image: $("#imagelink").val().trim(),
+                score: score,
+                totalScore: score.reduce((a, b) => a + b, 0)
+            };
+
+
+            console.log(newFriend);
+            // Question: What does this code do??
+            $.post("/api/survey", newFriend)
+                .then(function (data) {
+                    console.log("survey.html", data);
+                    alert("Adding friends...");
+                });
+        });
+
+
+
+        // In this code, jQuery is used to "download" the data from our server
+        // We then dynamically display this content in our survey. 
+
+
+        /*function runTableQuery() {
+            // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
+            $.ajax({ url: "/api/survey", method: "GET" })
+                .then(function (friends) {
+                    console.log(friends);
+                    console.log("------------------------------------");
+                });
+        }
+        // Loop through and display each of the friend
+        for (var i = 0; i < friends.length; i++) {
+    
+            // Get a reference to the FriendList element and populate it with survey
+            var friendList = $("#friendList");
+    
+            // Then display the fields in the HTML (Section Name, Date, URL)
+            var listItem = $("<li class='list-group-item mt-4'>");
+    
+            listItem.append(
+                $("<h2>").text("Survey #" + (i + 1)),
+                $("<hr>"),
+                $("<h2>").text("Name: " + friends[i].frienName),
+                $("<h2>").text("Photo: " + friends[i].friendPhoto),
+                $("<h2>").text("Scores: " + friends[i].friendScore)
+            );
+    
+            friendList.append(listItem);
+        }
+    
+    
+    
+    
+        runTableQuery();*/
+
+
+
+
+    });
+
+</script>
+
+</html>
