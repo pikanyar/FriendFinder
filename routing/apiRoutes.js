@@ -7,6 +7,7 @@ module.exports = function (app) {
     app.get('/api/survey', function (req, res) {
         res.json(friendsList);
     });
+
     app.post('/api/survey', function (req, res) {
         console.log(req.body)
         new_list.push(req.body);
@@ -16,6 +17,15 @@ module.exports = function (app) {
             console.log(friend.totalScore ? friend.totalScore : "No score yet")
         })
         res.json(new_list);
+
     });
 
-}
+    // Need to add a GET method to return a specific friend
+    // In Star Wars exercise, this is the equivalent of the /api/characters/:character endpoint
+    app.get('/api/survey/:survey', function (req, res) {
+        var friend = req.body;
+
+        return res.json(friend);
+    });
+
+};

@@ -309,7 +309,7 @@
         // We then dynamically display this content in our survey. 
 
 
-        /*function runTableQuery() {
+        function runTableQuery() {
             // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
             $.ajax({ url: "/api/survey", method: "GET" })
                 .then(function (friends) {
@@ -319,13 +319,13 @@
         }
         // Loop through and display each of the friend
         for (var i = 0; i < friends.length; i++) {
-    
+
             // Get a reference to the FriendList element and populate it with survey
             var friendList = $("#friendList");
-    
+
             // Then display the fields in the HTML (Section Name, Date, URL)
             var listItem = $("<li class='list-group-item mt-4'>");
-    
+
             listItem.append(
                 $("<h2>").text("Survey #" + (i + 1)),
                 $("<hr>"),
@@ -333,14 +333,14 @@
                 $("<h2>").text("Photo: " + friends[i].friendPhoto),
                 $("<h2>").text("Scores: " + friends[i].friendScore)
             );
-    
+
             friendList.append(listItem);
         }
-    
-    
-    
-    
-        runTableQuery();*/
+
+
+
+
+        runTableQuery();
 
 
 

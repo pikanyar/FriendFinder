@@ -9,4 +9,9 @@ module.exports = function (app) {
     app.use(function (req, res) {
         res.sendFile(path.join(__dirname + '/../app/public/home.html'));
     });
+
+    // This is to serve up the Friends List HTML file
+    app.use(function (req, res) {
+        res.sendFile(path.join(__dirname + '/../../public/friends.html'))
+    })
 }
